@@ -2,10 +2,10 @@ import os
 from datetime import datetime, timedelta
 from typing import Dict
 
-from fastapi import Depends
 from fastapi.security import OAuth2PasswordBearer
-from jwt import DecodeError, decode, encode
+from jwt import encode
 from pwdlib import PasswordHash
+
 # from sqlmodel import select
 # from sqlmodel.ext.asyncio.session import AsyncSession
 from zoneinfo import ZoneInfo

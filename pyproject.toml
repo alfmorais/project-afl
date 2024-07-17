@@ -17,6 +17,7 @@ psycopg-binary = "^3.2.1"
 pwdlib = {extras = ["argon2"], version = "^0.2.0"}
 pyjwt = "^2.8.0"
 python-multipart = "^0.0.9"
+validate-docbr = "^1.10.0"
 
 [tool.poetry.group.dev.dependencies]
 ruff = "^0.5.2"
